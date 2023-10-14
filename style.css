@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+   
+
+
+}
+#general{
+    width: 300px;
+    height: 800px;
+    margin: auto;
+
+
+}
+.menu{
+
+list-style: none;
+padding: 0;
+background-color: yellowgreen;
+width: 90%;
+max-width: 1000px;
+margin: auto;
+position: absolute;
+right: 300px;
+left: 550px;
+top: 50px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+   
+}
+.menu li{
+    display: inline-block;
+    align-items: center;
+    margin: 25px;
+}
+.menu li:hover{
+    background-color:white;
+}
+#logo{
+   position: absolute;
+   left: 20px;
+   padding: 20px;
+   width: 500px;
+    
+
+}
+#titulo1{
+     color: blue;
+    font-size: 45px;
+  font-family: cursive;
+  position: absolute;
+  top: 300px;
+}
+div.galeria{
+    
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgb(0,0,0,0.19);
+
+    width: 350px;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+   
+}
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+.contenido{
+   
+    
+    position: relative;
+    letter-spacing: normal;
+    margin-top: 350px;
+    display: block;
+    float: left;
+
+}
+#final{
+   background-color: black;
+   border-style: solid; color: black;
+ border-width: 5px;
+}
+#texto4{
+    color: white;
+    align-items: center;
+   
+}
